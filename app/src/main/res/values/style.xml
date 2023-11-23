@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/rectangular_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="OperatorButton" parent="CalculatorButton">
+        <item name="android:background">@drawable/opebtn</item>
+    </style>
+
+    <style name="NumberButton" parent="CalculatorButton">
+        <item name="android:background">@drawable/numbtn</item>
+    </style>
+
+    <style name="ClearButton" parent = "CalculatorButton">
+        <item name="android:background">@drawable/clebtn</item>
+    </style>
+
+</resources>

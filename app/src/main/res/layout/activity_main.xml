@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="6"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:columnOrderPreserved="false">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="24sp"
+        android:layout_gravity="end"
+        android:padding="16dp"
+        android:text=""
+        android:background="#DDDDDD"
+        android:layout_columnSpan="4"
+        android:layout_rowSpan="2"/>
+
+    <!-- 첫 번째 행 -->
+    <android.widget.Button
+        android:id="@+id/btn7"
+        style="@style/NumberButton"
+        android:background="@drawable/numbtn"
+        android:text="7" />
+
+    <android.widget.Button
+        android:id="@+id/btn8"
+        style="@style/NumberButton"
+        android:text="8" />
+
+    <android.widget.Button
+        android:id="@+id/btn9"
+        style="@style/NumberButton"
+        android:text="9" />
+
+    <android.widget.Button
+        android:id="@+id/btnMultiply"
+        style="@style/OperatorButton"
+        android:text="*" />
+
+    <!-- 두 번째 행 -->
+    <android.widget.Button
+        android:id="@+id/btn4"
+        style="@style/NumberButton"
+        android:text="4" />
+
+    <android.widget.Button
+        android:id="@+id/btn5"
+        style="@style/NumberButton"
+        android:text="5" />
+
+    <android.widget.Button
+        android:id="@+id/btn6"
+        style="@style/NumberButton"
+        android:text="6" />
+
+    <android.widget.Button
+        android:id="@+id/btnDivide"
+        style="@style/OperatorButton"
+        android:text="/" />
+
+    <!-- 세 번째 행 -->
+    <android.widget.Button
+        android:id="@+id/btn1"
+        style="@style/NumberButton"
+        android:text="1" />
+
+    <android.widget.Button
+        android:id="@+id/btn2"
+        style="@style/NumberButton"
+        android:text="2" />
+
+    <android.widget.Button
+        android:id="@+id/btn3"
+        style="@style/NumberButton"
+        android:text="3" />
+
+    <android.widget.Button
+        android:id="@+id/btnPlus"
+        style="@style/OperatorButton"
+        android:text="+" />
+
+    <!-- 네 번째 행 -->
+    <android.widget.Button
+        android:id="@+id/btn0"
+        style="@style/NumberButton"
+        android:text="0"
+        android:layout_columnSpan="3" />
+
+    <android.widget.Button
+        android:id="@+id/btnMinus"
+        style="@style/OperatorButton"
+        android:text="-" />
+
+    <!-- 다섯 번째 행 -->
+    <android.widget.Button
+        android:id="@+id/btnEquals"
+        style="@style/OperatorButton"
+        android:text="="
+        android:layout_columnSpan="3" />
+
+    <android.widget.Button
+        android:id="@+id/btnClear"
+        style="@style/ClearButton"
+        android:text="C"
+        android:layout_columnSpan="1" />
+
+</GridLayout>
+
+
+
+
