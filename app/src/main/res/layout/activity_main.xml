@@ -90,7 +90,12 @@
         android:id="@+id/btn0"
         style="@style/NumberButton"
         android:text="0"
-        android:layout_columnSpan="3" />
+        android:layout_columnSpan="2" />
+    <android.widget.Button
+        android:id="@+id/btnPercent"
+        style="@style/OperatorButton"
+        android:text="%"
+        android:layout_columnSpan="1"/>
 
     <android.widget.Button
         android:id="@+id/btnMinus"
@@ -102,7 +107,12 @@
         android:id="@+id/btnEquals"
         style="@style/OperatorButton"
         android:text="="
-        android:layout_columnSpan="3" />
+        android:layout_columnSpan="2" />
+    <android.widget.Button
+        android:id="@+id/btnTax"
+        style="@style/OperatorButton"
+        android:text="세금"
+        android:layout_columnSpan="1" />
 
     <android.widget.Button
         android:id="@+id/btnClear"
